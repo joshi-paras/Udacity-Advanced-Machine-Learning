@@ -46,8 +46,8 @@ class LearningAgent(Agent):
 
         else:
             self.trial_count = self.trial_count + 1
-            self.epsilon = self.epsilon - 0.05
-
+            #Initial Q learning agent: self.epsilon = self.epsilon - 0.05
+            #
         return None
 
     def build_state(self):
